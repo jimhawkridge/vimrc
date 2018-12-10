@@ -1,6 +1,7 @@
 " Fuzzy finding
 set rtp+=/usr/local/opt/fzf
 :nmap <C-p> :FZF<CR>
+:nmap <S-p> :History<CR>
 
 
 " Colour
