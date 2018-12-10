@@ -1,5 +1,6 @@
 " Fuzzy finding
-set rtp+=/usr/local/opt/fzf
+set rtp+=/usr/local/opt/fzf  " Homebrew
+set rtp+=~/.fzf  " Linux
 :nmap <C-p> :FZF<CR>
 :nmap <S-p> :History<CR>
 
