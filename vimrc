@@ -32,3 +32,6 @@ let g:airline_symbols.space = "\ua0"
 " Searching should match case when search string not lowercase
 :set ignorecase
 :set smartcase
+
+" Goimports on save
+let g:go_fmt_command = "goimports"
