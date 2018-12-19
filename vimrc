@@ -2,7 +2,7 @@
 set rtp+=/usr/local/opt/fzf  " Homebrew
 set rtp+=~/.fzf  " Linux
 :nmap <C-p> :FZF<CR>
-:nmap <S-p> :History<CR>
+:nmap <C-l> :History<CR>
 
 
 " Colour
@@ -24,3 +24,7 @@ let g:airline_symbols.space = "\ua0"
 
 " Line numbers
 :set nu
+
+" Searching should match case when search string not lowercase
+:set ignorecase
+:set smartcase
