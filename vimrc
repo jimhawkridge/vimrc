@@ -2,7 +2,11 @@
 set rtp+=/usr/local/opt/fzf  " Homebrew
 set rtp+=~/.fzf  " Linux
 :nmap <C-p> :FZF<CR>
-:nmap <C-l> :History<CR>
+:nmap <A-p> :History<CR>
+:nmap π :History<CR>
+:nmap <C-g> :GoDef<CR>
+:nmap <A-g> :GoDefPop<CR>
+:nmap © :GoDefPop<CR>
 
 
 " Colour
